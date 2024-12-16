@@ -1,5 +1,5 @@
 - name: Test Docker container creation
-  hosts: docker-server
+  hosts: dev
   tasks:
     - name: Run the Docker bulid
       shell: docker-compose -f /root/docker-compose.yml build --no-cache
